@@ -46,7 +46,7 @@ public class Kniffel {
         System.out.println("(z.B. 1 0 0 1 0 für Würfel 1 und 4)");
         System.out.println();
 
-        List<Cube> newCubes1 = getNewCubes(cubes1, scanner.nextLine());
+        List<Cube> newCubes1 = getNewCubes(newCubes, scanner.nextLine());
 
         System.out.println("Dritter Wurf:");
         printCubes(newCubes1);
